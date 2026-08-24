@@ -1,38 +1,18 @@
 *{
    margin: 0;
     padding: 0;
-
+    outline: 2px solid black;
+    box-sizing: border-box;
+    
 }
-main{
+body {
     width: 100%;
-    margin: 1rem;
-    padding-inline: 1rem;
+    height: 100%;
+    padding: 25px;
+    
 }
-#profile_card {
-    box-sizing: content-box;
-    width: 100px;
-    padding: 2px 2px 2px 2px;
-    border: darkblue solid 2px;
-}
-img {
-    width: 150px;
-    margin: 10px;
-    padding: 10px;
-    border: darkred solid 2px;
-    border-radius: 10px;
-    float: left;
-   
-}
-h2{
-    display: inline;
-    margin: 1em;
-    padding:2px;
-    border: darkblue solid 2px;
-    border-radius: 10px;
-}
-p {
-    display: inline;
-    line-height: 1.5em;
+main {
+    padding: 15px;
+
 }
 
-#profile_card_title {}
